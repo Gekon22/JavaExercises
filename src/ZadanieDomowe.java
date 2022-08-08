@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class ZadanieDomowe {
+
+
+public class ZadanieDomowe {
+    public static void main(String[] args) {
+
+
+    }
 }
