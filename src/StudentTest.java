@@ -23,14 +23,18 @@ public class StudentTest {
         student3.mail = "fs@wp.pl";
         student3.nrIndeksu = 33;
 
-        String[] grupaStudentow = new String[3];
-        grupaStudentow[0] = student1.toString();
-        grupaStudentow[1] = student2.toString();
-        grupaStudentow[2] = student3.toString();
+        Student[] students = new Student[] {student1, student2, student3};
 
-        for (int i=0; i< grupaStudentow.length; i++){
-            System.out.println(grupaStudentow[i]);
+
+        for (int i=0; i< students.length; i++) {
+            students[i].przedstawSie();
+            students[i].zalogujSie();
+            students[i].podajEmail();
+            students[i].podajNrIndeksu();
         }
+
+
+
 
     }
 }
