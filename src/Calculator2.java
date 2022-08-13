@@ -17,6 +17,7 @@ public class Calculator2 {
             System.out.println("Wynik dzielenia: " + (firstNumber/secondNumber));
         } else {
             System.out.println("Cannot be divided by zero");
+            
 
 
         }
