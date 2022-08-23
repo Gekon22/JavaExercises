@@ -1,5 +1,7 @@
 // Klasa pobiera dane od użytkownika, sprawdza czy jest w tabeli i podaje wynik
+
 import java.util.Scanner;
+
 public class CwiczenieElsIfSwitch {
     public static void main(String[] args) {
 

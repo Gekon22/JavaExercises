@@ -1,6 +1,9 @@
 public class StudentTest {
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
         Student student1 = new Student();
         Student student2 = new Student();
         Student student3 = new Student();
@@ -10,6 +13,8 @@ public class StudentTest {
         student1.nick = "JF";
         student1.mail = "jf@wp.pl";
         student1.nrIndeksu = 11;
+        String uczelniaJasia = student1.nazwaUczelni;
+        student1.infoUczelnia();
 
         student2.imie = "Anna";
         student2.nazwisko = "Grela";
