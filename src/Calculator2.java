@@ -9,10 +9,22 @@ public class Calculator2 {
         System.out.println("Podaj druga liczbe");
         int secondNumber = scanner.nextInt();
 
-        System.out.println("Wynik dodania: " + (firstNumber + secondNumber));
-        System.out.println("Wynik odejmowania: " + (firstNumber - secondNumber));
-        System.out.println("Wynik mnożenia: " + (firstNumber * secondNumber));
-        System.out.println("Wynik dzielenia: " + (firstNumber / secondNumber));
+
+         System.out.println("Wynik dodania: " + (firstNumber+secondNumber));
+        System.out.println("Wynik odejmowania: " + (firstNumber-secondNumber));
+        System.out.println("Wynik mnożenia: " + (firstNumber*secondNumber));
+        // friendly information
+        if (secondNumber !=0) {
+            System.out.println("Wynik dzielenia: " + (firstNumber/secondNumber));
+        } else {
+            System.out.println("Cannot be divided by zero");
+
+
+
+        }
+
+
+
     }
 
 }
