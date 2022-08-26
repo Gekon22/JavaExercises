@@ -9,6 +9,11 @@ public class Footballer extends Person {
         this.footballClub = footballClub;
     }
 
+    public void eat(){
+        super.eat();
+        System.out.println("But I should eat healthy food");
+    }
+
     public void playFootbal() {
 
         System.out.println("I'm playing football for " + footballClub);

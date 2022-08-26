@@ -14,6 +14,6 @@ public class Person {
     }
 
     public void walk(){
-        System.out.println("I ile walk");
+        System.out.println("I like walking");
     }
 }
