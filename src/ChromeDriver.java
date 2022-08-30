@@ -5,9 +5,9 @@ public class ChromeDriver implements Interface{
     }
 
     @Override
-    public void findElementBy() {
+    public int findElementBy() {
+        return 7;
 
-        System.out.println("We find by Chrome");
 
     }
 }

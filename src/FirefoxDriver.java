@@ -5,7 +5,7 @@ public class FirefoxDriver implements Interface{
     }
 
     @Override
-    public void findElementBy() {
-        System.out.println("We find by Firefox");
+    public int findElementBy() {
+        return 7;
     }
 }
