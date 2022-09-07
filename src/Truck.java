@@ -20,4 +20,6 @@ public class Truck implements Vehicle{
     public void refuel(){
         System.out.println("I should go to gas station");
     }
+
+
 }

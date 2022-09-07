@@ -1,3 +1,5 @@
+import trainings.static_.Employee;
+
 public class UserTest {
 
     public static void main(String[] args) {
@@ -10,5 +12,6 @@ public class UserTest {
         System.out.println(user.username);
         System.out.println(user.password);
         user.sayHello();
+
     }
 }
